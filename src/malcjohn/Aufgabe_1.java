@@ -37,23 +37,8 @@ public class Aufgabe_1 {
 		System.out.println(Float.MAX_VALUE * 10);
 		
 		System.out.println(Double.MAX_VALUE * 10);
-
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(  10); /// zumachen
 		
 		
 		
