@@ -38,9 +38,10 @@ public class Aufgabe_1 {
 		
 		System.out.println(Double.MAX_VALUE * 10);
 		
-		System.out.println(  10); /// zumachen
-		
-		
+		System.out.println(1 / 10); // standart wird int
+		System.out.println(2 / 10); // Richtig haben : 2.0
+		System.out.println(3 / 10);
+		System.out.println(4 / 10);
 		
 	}
 
