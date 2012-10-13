@@ -1,7 +1,5 @@
 package malcjohn;
 
-import java.util.Scanner;
-
 public class ExecrisePad1 {
 	public static void main(String[] args) {
 		System.out.println(100000L * 100000 / 100000);
