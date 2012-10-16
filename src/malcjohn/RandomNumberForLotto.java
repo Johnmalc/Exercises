@@ -3,7 +3,7 @@ package malcjohn;
 import java.util.*;
 import java.lang.*;
 
-public class RandomNumber {
+public class RandomNumberForLotto {
 
 	/**
 	 * http://stackoverflow.com/questions/363681/generating-random-number-in-a-range-with-java
