@@ -13,7 +13,9 @@ public class Aufgabe_1 {
 		 * bits of the mathematical sum as represented in some sufficiently 
 		 * large two's-complement format. If overflow occurs, 
 		 * then the sign of the result is not the same as the sign
-		 *  of the mathematical sum of the two operand values.
+		 * of the mathematical sum of the two operand values.
+		 * 
+		 * Source : http://stackoverflow.com/a/9397510/1607152 
 		 */
 		
 		
