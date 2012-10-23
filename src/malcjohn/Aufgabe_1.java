@@ -19,28 +19,33 @@ public class Aufgabe_1 {
 		 */
 		
 		
-		System.out.println(Integer.MAX_VALUE); //      2147483647
+		System.out.println(Integer.MAX_VALUE); 		//  2147483647
 		System.out.println(Integer.MAX_VALUE + 1); // -2147483648
-		System.out.println(Integer.MIN_VALUE); //     -2147483648
+		System.out.println(Integer.MIN_VALUE); 		//-2147483648
 		System.out.println(Integer.MIN_VALUE + 1); // -2147483647
 		System.out.println(Integer.MIN_VALUE - 1); //  2147483647
 		
 		System.out.println();
 		
-		System.out.println(Short.MAX_VALUE); //      32767
-		System.out.println(Short.MAX_VALUE + 1 ); // 32768
-		System.out.println(Short.MIN_VALUE); // 	-32768
-		System.out.println(Short.MIN_VALUE + 1 ); //-32767
-		System.out.println(Short.MIN_VALUE - 1 ); //-32769
+		short r = (short) ((short) Short.MAX_VALUE +1);
+		short q = (short) ((short) Short.MIN_VALUE +1);
+		short t = (short) ((short) Short.MIN_VALUE -1);
+		System.out.println(Short.MAX_VALUE); 			//  32767
+		System.out.println(r); 							// -32768
+		System.out.println((short) Short.MIN_VALUE); 	// 	-32768
+		System.out.println(q);							 //-32767
+		System.out.println(t); 							// 32769
 		
 		System.out.println();
 
-		
-		System.out.println(Byte.MAX_VALUE);		// 127
-		System.out.println(Byte.MAX_VALUE + 1);	// 128
-		System.out.println(Byte.MIN_VALUE - 1); //-129 
-		System.out.println(Byte.MIN_VALUE);		//-128
-		System.out.println(Byte.MIN_VALUE + 1); //-127
+		byte b = (byte) ((byte) Byte.MIN_VALUE - 1);
+		byte f = (byte) ((byte) Byte.MIN_VALUE + 1);
+		byte d = (byte) ((byte) Byte.MAX_VALUE + 1);
+		System.out.println((byte) Byte.MAX_VALUE);		// 127
+		System.out.println(d);	// -128
+		System.out.println(b); // 127 
+		System.out.println((byte) Byte.MIN_VALUE);		//-128
+		System.out.println(f); //-127
 		
 		System.out.println();
 		
