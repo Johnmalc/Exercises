@@ -31,12 +31,14 @@ public class Aufgabe_2 {
 		System.out.println(grosseZahl2);
 		
 		// Float and double value zahlen
-		System.out.println(neuZahlZuweisung);
-		System.out.println(neuZahlZuweisung2);
-		System.out.println(neuZahlZuweisung3);
-		System.out.println(neuZahlZuweisung4);
+		System.out.println(neuZahlZuweisung + "  > Float in int");
+		System.out.println(neuZahlZuweisung2 + " > Zweite float in int");
+		System.out.println(neuZahlZuweisung3 + " > Double in int");
+		System.out.println(neuZahlZuweisung4 + " > Zweite double int");
 		
 		System.out.println();
+		System.out.println(Integer.MAX_VALUE + " grossete max value of int");
+		System.out.println(Integer.MIN_VALUE + " kleinste min value of int");
 		System.out.println();
 
 		/*
@@ -48,8 +50,12 @@ public class Aufgabe_2 {
 		float zuweisung3 = Integer.MAX_VALUE;
 		double zuweissung2 = Integer.MAX_VALUE;
 
-		System.out.println(zuweisung3);
-		System.out.println(zuweissung2);
+		// nur fur vorletzte aufgabe mit min value
+		float zuweisungMinus = Integer.MIN_VALUE;
+		double zuweissungMinus = Integer.MIN_VALUE;
+
+		System.out.println(zuweisung3 + " Zugewiesen float zu int");
+		System.out.println(zuweissung2 + " Zugewiesen double zu int");
 		
 		System.out.println();
 		System.out.println();
@@ -60,34 +66,175 @@ public class Aufgabe_2 {
 		 * Umwandlung von float und double varianten in int wieder 
 		 * 
 		*/		
-		
-		
-		
-		
-		
-		
-		
-		
+		int WiederUmwandlung = (int) zuweisung3;
+		int WiederUmwandlung2 = (int) zuweissung2;
+		// Kriegt man die Max. Value von int
+		System.out.println(WiederUmwandlung);
+		System.out.println(WiederUmwandlung2);
 		
 		System.out.println();
 		System.out.println();
+		
+		/*
+		 * Die 4 Unteraufgabe
+		 * Ziehen Sie von den Fließkommavariablen 1 ab und wandeln Sie wieder zurück,
+		 * Machen Sie das Entsprechende mit Subtraktion von 10, Division durch 10 und
+		 * schließlich mit Subtraktion und Division nacheinander.
+		*/
+		
+		float EinsAbziehen = zuweisung3 - 1;
+		System.out.println(EinsAbziehen);
+		int EinsAbziehen2 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen2);
+		System.out.println(" 1 abziehen");
 		System.out.println();
+		
+		float EinsAbziehen3 = zuweisung3 - 10;
+		System.out.println(EinsAbziehen3);
+		int EinsAbziehen4 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen4);
+		System.out.println("-10 ");
 		System.out.println();
+		
+		float EinsAbziehen5 = zuweisung3 / 10;
+		System.out.println(EinsAbziehen5);
+		int EinsAbziehen6 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen6);
+		System.out.println("/10");
 		System.out.println();
+		
+		float EinsAbziehen7 = (zuweisung3 - 10) / 10;
+		System.out.println(EinsAbziehen7);
+		int EinsAbziehen8 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen8);
+		System.out.println("-10 /10");
+		System.out.println();
+		
+		System.out.println(" Ab jetzt mit double");
 
+		double EinsAbziehen9 = zuweissung2 - 1;
+		System.out.println(EinsAbziehen9);
+		int EinsAbziehen10 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen10);
+		System.out.println(" 1 abziehen");
+		System.out.println();
+		
+		double EinsAbziehen11 = zuweissung2 - 10;
+		System.out.println(EinsAbziehen11);
+		int EinsAbziehen12 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen12);
+		System.out.println("-10 ");
+		System.out.println();
+		
+		double EinsAbziehen13 = zuweissung2 / 10;
+		System.out.println(EinsAbziehen13);
+		int EinsAbziehen14 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen14);
+		System.out.println("/10");
+		System.out.println();
+		
+		double EinsAbziehen15 = (zuweissung2 - 10) / 10;
+		System.out.println(EinsAbziehen15);
+		int EinsAbziehen16 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen16);
+		System.out.println("-10 /10");
+		System.out.println();
+		
+		// Ab jetzt mit min value
+		// Genommen von der 2 Unteraufgabe
+		System.out.println("Ab jetzt mit min value");
 		
 		
+		float EinsAbziehen17 = zuweisungMinus + 1;
+		System.out.println(EinsAbziehen17);
+		int EinsAbziehen18 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen18);
+		System.out.println(" 1 abziehen");
+		System.out.println();
 		
+		float EinsAbziehen19 = zuweisungMinus + 10;
+		System.out.println(EinsAbziehen19);
+		int EinsAbziehen20 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen20);
+		System.out.println("-10 ");
+		System.out.println();
 		
+		float EinsAbziehen21 = zuweisungMinus / 10;
+		System.out.println(EinsAbziehen21);
+		int EinsAbziehen22 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen22);
+		System.out.println("/10");
+		System.out.println();
 		
+		float EinsAbziehen23 = (zuweisungMinus + 10) / 10;
+		System.out.println(EinsAbziehen23);
+		int EinsAbziehen24 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen24);
+		System.out.println("-10 /10");
+		System.out.println();
 		
+		System.out.println(" Ab jetzt mit double");
+
+		double EinsAbziehen25 = zuweissungMinus + 1;
+		System.out.println(EinsAbziehen25);
+		int EinsAbziehen26 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen26);
+		System.out.println(" 1 abziehen");
+		System.out.println();
 		
+		double EinsAbziehen27 = zuweissungMinus + 10;
+		System.out.println(EinsAbziehen27);
+		int EinsAbziehen28 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen28);
+		System.out.println("-10 ");
+		System.out.println();
 		
+		double EinsAbziehen29 = zuweissungMinus / 10;
+		System.out.println(EinsAbziehen29);
+		int EinsAbziehen30 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen30);
+		System.out.println("/10");
+		System.out.println();
 		
+		double EinsAbziehen31 = (zuweissungMinus + 10) / 10;
+		System.out.println(EinsAbziehen31);
+		int EinsAbziehen32 = (int) EinsAbziehen;
+		System.out.println(EinsAbziehen32);
+		System.out.println("-10 /10");
+		System.out.println();
+	
+		System.out.println();
+		System.out.println();
 		
+		/**
+		 * 
+		 * Besorgen Sie sich die größte darstellbare long-Zahl
+		 * und multiplizieren Sie sie zuerst als float und dann als double mit 10,
+		 * entsprechend die kleinste darstellbare (negativer Exponent) dividiert durch 10.
+		 */
 		
+		System.out.println("// 5th. Sentence [the last part]");
+		long sj = Long.MAX_VALUE;
+		long sd = Long.MIN_VALUE;
 		
-		System.out.println("// 1st. Sentence");
+		float fr = (float) sj; // for max value
+		double re = (double) sj; // for max value
+		
+		System.out.println(fr * 10);
+		System.out.println(re * 10);
+		
+		float fg = (float) sd; // for min value
+		double ft = (double) sd; // for min value 
+		
+		System.out.println(fg / 10);
+		System.out.println(ft / 10);
+		
+		System.out.println();
+		System.out.println();		
+		
+		// Wahrscheinlich richtig, aber ich nutze nur den letzten Teil mit Long
+		
+		/*System.out.println("// 1st. Sentence");
 		int a = 2_000_000;
 		int d = 500_000;
 		double b = 54.85;
@@ -127,7 +274,6 @@ public class Aufgabe_2 {
 		System.out.println(buk);
 		System.out.println(tuk);
 		System.out.println(puk);
-
 		
 		System.out.println("// 5th. Sentence [the last part]");
 		long sj = Long.MAX_VALUE;
@@ -144,7 +290,7 @@ public class Aufgabe_2 {
 		
 		System.out.println(fg / 10);
 		System.out.println(ft / 10);
-		
+		*/
 	}
 
 }
