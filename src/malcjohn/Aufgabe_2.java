@@ -6,6 +6,87 @@ public class Aufgabe_2 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		/**
+		 * 
+		 * Das ist die 1 Unteraufgabe
+		 */
+		// Neuer Anfang mir Docs
+		// beliebig - meine "grossen Zahlen"
+		int grosseZahl = (Integer.MAX_VALUE / 2 );
+		int grosseZahl2 = (Integer.MAX_VALUE / 3 );
+		// Zuweisung zu float 
+		float neuZahlZuweisung = (int) grosseZahl;
+		float neuZahlZuweisung2 = (int) grosseZahl2;
+		// Zuweisung zu double
+		double neuZahlZuweisung3 = (int) grosseZahl;
+		double neuZahlZuweisung4 = (int) grosseZahl2;
+		// Nicht sicher wie genau, ich mache noch umgekehrt
+		// Entweder int-int oder int-float
+		// Kommt das gleiche wie bei grosseZahl > Irrelevant
+		// int neuZahlZuweisung3 = (int) grosseZahl;
+		// int neuZahlZuweisung4 = (int) grosseZahl2;
+		
+		// Uberprufen ob int max value/2-3 existriert
+		System.out.println(grosseZahl);
+		System.out.println(grosseZahl2);
+		
+		// Float and double value zahlen
+		System.out.println(neuZahlZuweisung);
+		System.out.println(neuZahlZuweisung2);
+		System.out.println(neuZahlZuweisung3);
+		System.out.println(neuZahlZuweisung4);
+		
+		System.out.println();
+		System.out.println();
+
+		/*
+		 * 
+		 * Die 2 Unteraufgabe 
+		 * Moglich ? >  Ja
+		 * typecasting nicht notig, also (int) muss nicht geschrieben sein
+		*/
+		float zuweisung3 = Integer.MAX_VALUE;
+		double zuweissung2 = Integer.MAX_VALUE;
+
+		System.out.println(zuweisung3);
+		System.out.println(zuweissung2);
+		
+		System.out.println();
+		System.out.println();
+		
+		/*	
+		 * 
+		 * Die 3 Unteraufgabe
+		 * Umwandlung von float und double varianten in int wieder 
+		 * 
+		*/		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		System.out.println("// 1st. Sentence");
 		int a = 2_000_000;
 		int d = 500_000;
