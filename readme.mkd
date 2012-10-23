@@ -1,4 +1,4 @@
-<big>These are exercises in Java language from John Malc. You can find me on twitter or visit my profile here on GitHub. Contact me if need it.
+<big>These are exercises in Java language from John Malc. You can find me on twitter or visit my profile here on GitHub. Contact me if need it. This is for the first semester.
 </big>
 
 ChangeLog:

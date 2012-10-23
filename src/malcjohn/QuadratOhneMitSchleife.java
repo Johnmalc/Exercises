@@ -7,11 +7,10 @@ package malcjohn;
   * @author malcjohn
   */
 
-public class QuadratOhneSchleife {
+public class QuadratOhneMitSchleife {
 
-  public static void main(String[] args) {
+  public static void ohneSchleife() {
     // sehr klug gelost; von V.E
-    
     int a = 1;
     System.out.println(a*a);
     ++a;
@@ -26,7 +25,7 @@ public class QuadratOhneSchleife {
     System.out.println(a*a);
     a++;
     System.out.println(a*a);
-    
+    // etc.....
     System.out.println();
 
     int zahl1 = 1;
@@ -90,9 +89,16 @@ public class QuadratOhneSchleife {
     System.out.println(antwort17);
     System.out.println(antwort18);
     System.out.println(antwort19);
-    System.out.println(antwort20); // 400
-
-    
-  } // end of main
-
-} // end of class aufgabe1
+    System.out.println(antwort20); // 400    
+  }
+  public static void mitSchleife() {
+	  
+	  for (int i = 1; i <= 20; i++) {
+		  System.out.println(i*i);
+	  }
+  }
+  public static void main(String[] args) {
+	  ohneSchleife(); // egal was
+	  mitSchleife();
+  }
+} 
