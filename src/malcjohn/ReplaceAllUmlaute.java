@@ -3,7 +3,6 @@ package malcjohn;
 /**
   *
   * Beschreibung
-  *
   * @version 1.0 vom 23.10.2012
   * @author
   */

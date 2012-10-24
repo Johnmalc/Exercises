@@ -19,11 +19,7 @@ public class UberpruftContains {
     } else {
     System.out.println("Nein, es kommt nicht vor");
     } // end of if-else
-    
-    
-    
-    
-    
+  
   } // end of main
 
 } // end of class aufgabe3

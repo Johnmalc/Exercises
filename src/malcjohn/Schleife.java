@@ -13,21 +13,20 @@ public class Schleife {
 	    int breite = 10;
 	    
 	    System.out.println("Hoehe: " + hohe + " und die innnere Breite ist " + breite);
-	      	for (int i = 0; i < 10; i++) {
-	    		for (int x = 0; x < 1; x++) {
+	      	for (int i = 0; i <= 10; i++) {
+	    		for (int x = 0; x <= i; x++) {
 	    			System.out.print("X"); // with normaln print you get in one row
 		    		}
-	    }
-	    	System.out.println();
-	    }
-	    
-	    
-	    
-//	     for (int i=0; i<hohe; i++) {
-//	       for (int x=0; x<breite; x++){
-//	         System.out.println("X");
-//	       }
-//	     } 
-	 //    System.out.println("");
-
-} 
+	    		System.out.println();
+	      	}
+	      	
+	      	System.out.println("............................");
+	      	for (int f = 10; f > 0; f--) {
+	  			for (int d = 0; d < f; d++) {
+	  				System.out.print("R"); // with normaln print you get in one row
+	  				}
+	  			System.out.println();
+  }
+	  }}
+	     
+	     

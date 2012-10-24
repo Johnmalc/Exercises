@@ -1,7 +1,6 @@
 package malcjohn;
 
 /**
-  *
   * Beschreibung
   *
   * @version 1.0 vom 23.10.2012
@@ -17,11 +16,11 @@ public class BuchstabeAufzahlung {
        String a  = text.substring(i, i+1);
        if (a.equals("e")) {
          anzahl++;
-       } // end of if-else
+       } 
 
       // System.out.println("test");
-    } // end of for
+    } 
     System.out.println("Der Buchstabe e kommt genaue " + anzahl + " mal vor.");
-  } // end of main
+  } 
 
-} // end of class aufgabe2
+} 
