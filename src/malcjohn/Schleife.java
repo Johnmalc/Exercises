@@ -26,7 +26,27 @@ public class Schleife {
 	  				System.out.print("R"); // with normaln print you get in one row
 	  				}
 	  			System.out.println();
-  }
-	  }}
+	      	}
+	      	
+	      	for(int i = 10; i <= 1; i=i-2){
+	      		for(int j = 1; j <= 10; j++){
+	      			System.out.print(j*i + "");
+	      			System.out.println();
+	      		}
+	      		
+	      	}
+	      	
+	      	for(int r = 0; r <= 20; r++){
+	      		for(int t = 0; t < 2 ; t++) {
+	      			System.out.print(r + "  " + t);
+	      			System.out.println();
+	      		}
+	      		
+	      	}
+	  
+	  
+	  }
+	  
+	 }
 	     
 	     

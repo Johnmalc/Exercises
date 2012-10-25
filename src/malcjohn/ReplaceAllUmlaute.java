@@ -35,6 +35,7 @@ public class ReplaceAllUmlaute {
     /**
     * Ä mit Ae und ä mit ae Ö mit Oe und ö mit oe Ü mit Ue und ü mit ue ß mit ss
     */
+    	
   }
 
 }
