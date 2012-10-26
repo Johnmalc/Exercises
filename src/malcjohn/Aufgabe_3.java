@@ -2,9 +2,9 @@
  * Import must be after package
  */
 package malcjohn;
+import java.util.*;
+import Prog1Tools.IOTools.*;
 
-import java.util.Scanner;
-import Prog1Tools.IOTools;
 /**
  * @author malcjohn
  * Aufgabe 3:
