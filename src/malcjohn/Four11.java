@@ -25,34 +25,22 @@ public class Four11 {
 		System.out.println("sak" + formula);
 		*/
 		double x,y,a,s,q,w,c,v,f,g, o,l;
-		x = Math.pow(10,20);
+		// nepouzivat Math.pow
+		x = 1e20;
 		a = 1223;
-		q = Math.pow(10, 18);
-		c = Math.pow(10, 15);
+		q = 1e18;
+		c = 1e15;
 		f = 3;
-		o = Math.pow(-10, 12);
-		y = Math.pow(10, 20);
+		o = -1e12;
+		y = 1e20;
 		s = 2;
-		w = Math.pow(-10, 22);
-		v = Math.pow(10, 13);
+		w = -1e22;
+		v = 1e13;
 		g = 2111;
-		l = Math.pow(10, 16);
+		l = 1e16;
 		
 		double formula = ((x*y)+(a*s)+(q*w)+(c*v)+(f*g)+(o*l));
 		System.out.println(formula);
-		double rken = (x*y);
-		double rken2 = (a*s);
-		double rken3 = (q*w);
-		double rken4 = (c*v);
-		double rken5 = (f*g);
-		double rken6 = (l*o);
-		System.out.println(rken);
-		System.out.println(rken2);
-		System.out.println(rken3);
-		System.out.println(rken4);
-		System.out.println(rken5);
-		System.out.println(rken6);
-		System.out.println(rken+rken2+rken3+rken4+rken5+rken6);
 	}
 
 }

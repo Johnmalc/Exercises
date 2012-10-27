@@ -3,6 +3,8 @@
  */
 package malcjohn;
 import java.util.*;
+
+import Prog1Tools.IOTools;
 import Prog1Tools.IOTools.*;
 
 /**
@@ -27,11 +29,16 @@ public class Aufgabe_3 {
 	 * Bubble Sort algorithm
 	 */
 	public static void main(String[] args) {
+		// input
+		double inGabe = IOTools.readDouble("Ihre angabe fur Flieskomma zahlen");
+		//
+		
+		
 		// INput tastatur nein
 //		int n = IOTools.readInteger("Wie viele Werte? ");
 //		int[] numbers = new int[n];
-		//double [] numbers;
-		// call for the function that i need to use ?
+//		double [] numbers;
+		 //call for the function that i need to use ?
 		double numbers[] = {5.768, -87.785, +76.3465, 1.1510, 556143.123, 354.564, 3.5321, 63.6324, -6.4234, 65.345};
 		Sort(numbers); // nemenit pozici
 		for(int i = 0; i < numbers.length; i++){
@@ -39,11 +46,10 @@ public class Aufgabe_3 {
             System.out.println(numbers[i]);          //uses the for loop index to select an array 
         }
 		
-		
 	}
 	// a new function from the ground up  ---- Bubble sort
 	public static void Sort(double[] numbers) {
-		double a; // to swich variables 
+		double a; // to swap variables 
 		// here starts the buble sort algo
 		for(int i = 0; i < numbers.length-1; i++){
 			for(int d = 0; d < numbers.length-1; d++){
@@ -56,4 +62,6 @@ public class Aufgabe_3 {
 			}
 		}
 	}
+	
+	
 }
