@@ -30,7 +30,8 @@ public class Aufgabe_3 {
 	 */
 	public static void main(String[] args) {
 		// input
-		double inGabe = IOTools.readDouble("Ihre angabe fur Flieskomma zahlen");
+		// here to uncomment 1 version part
+		//double inGabe = IOTools.readDouble("Ihre angabe fur Flieskomma zahlen");
 		//
 		
 		
@@ -39,14 +40,29 @@ public class Aufgabe_3 {
 //		int[] numbers = new int[n];
 //		double [] numbers;
 		 //call for the function that i need to use ?
+
 		double numbers[] = {5.768, -87.785, +76.3465, 1.1510, 556143.123, 354.564, 3.5321, 63.6324, -6.4234, 65.345};
-		Sort(numbers); // nemenit pozici
-		for(int i = 0; i < numbers.length; i++){
+		//Sort(numbers); // nemenit pozici
+		//for(int i = 0; i < numbers.length; i++){
 			//numbers[i] = IOTools.readInt; 			//for loop to show all the values of the array
-            System.out.println(numbers[i]);          //uses the for loop index to select an array 
-        }
+          //  System.out.println(numbers[i]);          //uses the for loop index to select an array 
+        //}
 		
-	}
+	//}
+		int t = 0 // zakladni index
+		for(i = 0; i < numbers.length; i++){
+			for (j = 0; j < numbers.length; j++) {
+				if (numbers <) {
+					int swap;
+					swap = numbers[d];
+					numbers[d] = numbers[p];
+					numbers[p] = swap;
+					
+				}
+			}
+			t++; // to start another swap
+			System.out.println(numbers[d]);
+		}
 	// a new function from the ground up  ---- Bubble sort
 	public static void Sort(double[] numbers) {
 		double a; // to swap variables 
