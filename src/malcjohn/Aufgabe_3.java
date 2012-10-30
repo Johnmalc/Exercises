@@ -49,20 +49,20 @@ public class Aufgabe_3 {
         //}
 		
 	//}
-		int t = 0 // zakladni index
-		for(i = 0; i < numbers.length; i++){
-			for (j = 0; j < numbers.length; j++) {
-				if (numbers <) {
-					int swap;
-					swap = numbers[d];
-					numbers[d] = numbers[p];
-					numbers[p] = swap;
-					
-				}
-			}
-			t++; // to start another swap
-			System.out.println(numbers[d]);
-		}
+//		int t = 0 // zakladni index
+//		for(i = 0; i < numbers.length; i++){
+//			for (j = 0; j < numbers.length; j++) {
+//				if (numbers <) {
+//					int swap;
+//					swap = numbers[d];
+//					numbers[d] = numbers[p];
+//					numbers[p] = swap;
+//					
+//				}
+//			}
+//			t++; // to start another swap
+//			System.out.println(numbers[d]);
+	}
 	// a new function from the ground up  ---- Bubble sort
 	public static void Sort(double[] numbers) {
 		double a; // to swap variables 
