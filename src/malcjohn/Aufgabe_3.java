@@ -37,10 +37,8 @@ public class Aufgabe_3 {
         // http://leepoint.net/notes-java/data/arrays/arrays-ex-reverse.html
         // reverse order
         Arrays.sort(array);
-        
         System.out.println(Arrays.toString(array));
-        System.out.println(Arrays.toString(array));
-        System.out.println(Arrays.toString(array));
+       
 	}
 }
 		
