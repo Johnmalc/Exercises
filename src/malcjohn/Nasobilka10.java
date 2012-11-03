@@ -15,6 +15,7 @@ public class Nasobilka10 {
 			//System.out.println( "*" );
 			System.out.print(g*i+ "\n");
 			//break;		
-	}}
+	}
+			}
 	}
 }

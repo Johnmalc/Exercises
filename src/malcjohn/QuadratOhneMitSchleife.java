@@ -91,14 +91,14 @@ public class QuadratOhneMitSchleife {
     System.out.println(antwort19);
     System.out.println(antwort20); // 400    
   }
-  public static void mitSchleife() {
+  public static void mitSchleife(int n) {
 	  
-	  for (int i = 1; i <= 20; i++) {
+	  for (int i = 0; i <= 20; i+=2) {
 		  System.out.println(i*i);
 	  }
   }
   public static void main(String[] args) {
-	  ohneSchleife(); // egal was
-	  mitSchleife();
+	 // ohneSchleife(); // egal was
+	  mitSchleife(1);
   }
 } 

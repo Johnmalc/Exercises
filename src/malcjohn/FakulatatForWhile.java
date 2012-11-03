@@ -15,15 +15,15 @@ public class FakulatatForWhile {
 //			}
 //		System.out.println(fakultat);
 		
-		fak(5); 
-		System.out.println(fak(5));
+		System.out.println(fak(15));
 	
 		// class fakultat
 	}
 	
 	// oder durch return statement
-	public static int fak(int fakultat) {
-		for (int i = fakultat-1; i > 0; i--) {
+	// nepouzivat int statement
+	public static double fak(double fakultat) {
+		for (double i = fakultat-1; i > 0; i--) {
 			fakultat = fakultat * i;
 		}
 				
