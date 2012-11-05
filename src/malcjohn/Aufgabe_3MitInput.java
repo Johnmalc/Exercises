@@ -21,12 +21,11 @@ public class Aufgabe_3MitInput {
             array[i] = scan.nextDouble();    
         }	
         
-       // System.out.println(array);
+        // System.out.println(array);
         // http://leepoint.net/notes-java/data/arrays/arrays-ex-reverse.html
         // reverse order
         // see file array umdrehen
         BubleSort(array);
-
         System.out.println(Arrays.toString(array));
         
 	}
@@ -34,11 +33,11 @@ public class Aufgabe_3MitInput {
 		double n = array.length;
 		int temp;
 		for(int i = 0; i < n; i++){
-			for(int j = 1; j < (n-1); j++) {
+			for(int j = 0; j < (n-1); j++) {
 				// <> zmeni druh razeni
-				if (array [j-1] > array[j]){
-					temp = (int) array[j-1];
-					array[j-1] = array[j];
+				if (array [j+1] > array[j]){
+					temp = (int) array[j+1];
+					array[j+1] = array[j];
 					array[j] = temp;
 				}
 			}
