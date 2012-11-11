@@ -2,7 +2,7 @@ package malcjohn;
 
 import java.util.Scanner;
 
-public class arrayfibo {
+public class Aufagabe_5 {
 
 	/**
 	 * @param args
