@@ -1,4 +1,4 @@
-package malcjohn;
+
 
 public class Aufgabe_1 {
 	public static void main(String[] args) {

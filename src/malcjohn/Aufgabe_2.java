@@ -1,4 +1,4 @@
-package malcjohn;
+﻿
 
 public class Aufgabe_2 {
 
