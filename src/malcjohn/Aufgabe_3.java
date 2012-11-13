@@ -26,7 +26,7 @@ public class Aufgabe_3 {
 				
 		// VAriant ohne Input
 	double numbers[] = {5.768, -87.785, +76.3465, 1.1510, 556143.123, 354.564, 3.5321, 63.6324, -6.4234, 65.345};
-	Sort(numbers); // nemenit pozici
+	Sort(numbers); // nemenit pozici	
 	for(int i = 0; i < numbers.length; i++){ //for loop to show all the values of the array
          System.out.println(numbers[i]);          //uses the for loop index to select an array 
     }

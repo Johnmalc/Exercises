@@ -2,9 +2,9 @@ package malcjohn;
 
 import java.util.Arrays;
 import java.util.Collections;
+import org.apache.commons.lang3.*;
 
-
-public class ArrayUmdrehen {
+public class BubleSort_umgekehrtUNDarrayUmdrehen {
 
 	/**
 	 * @param args
@@ -19,32 +19,30 @@ public class ArrayUmdrehen {
 		feld[4] = 5;
 		
 		
-		int [] feldNeu;
-		feldNeu = new int [5];
-		feldNeu[0] = 5;
-		feldNeu[1] = 5;
-		feldNeu[2] = 8;
-		feldNeu[3] = 2;
-		feldNeu[4] = 1;
+		//int [] feldNeu;
+		//feldNeu = new int [5];
+		int [] feldNeu = {6,5,8,7,8};
+//		feldNeu[0] = 6;
+//		feldNeu[1] = 5;
+//		feldNeu[2] = 8;
+//		feldNeu[3] = 2;
+//		feldNeu[4] = 1;
 		
-		bubbleSort(feldNeu);
-		 System.out.println("Array After Bubble Sort");
-         for(int i=0; i < feldNeu.length; i++){
-             System.out.print(feldNeu[i] + " ");
-         }
-		
-//		Arrays.sort(feldNeu);
-//        System.out.println(Arrays.toString(feldNeu));
-		
-           // mit for loop            
-//        int i;
-//        for ( i = 0; i < feld.length; i++) {
-//             System.out.print(feld[i]);
+//		Umgekehrt(feldNeu);
+//		System.out.println("Array After Bubble Sort");
+//        for(int i=0; i < feldNeu.length; i++){
+//            System.out.print(feldNeu[i] + " ");
 //        }
-// 
+        
+		// wird 8,7,8,5,6
+		int [] reversed = ArrayUtils.clone(feldNeu);
+        ArrayUtils.reverse(reversed);
+        System.out.println(ArrayUtils.toString(reversed));
 
+
+        
    }
-	private static void bubbleSort(int[] feldNeu) {
+	private static void Umgekehrt(int[] feldNeu) {
         
         /*
          * In bubble sort, we basically traverse the array from first
