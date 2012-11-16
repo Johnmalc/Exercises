@@ -1,8 +1,6 @@
 package malcjohn;
 
-import java.util.Scanner;
-
-public class Aufagabe_5 {
+public class Aufgabe_5 {
 
 	/**
 	 * @param args
@@ -20,6 +18,7 @@ public class Aufagabe_5 {
 	}
 	public static void main(String[] args) {
 		//Scanner n = new Scanner(System.in);
+		// zmena cisel
 		System.out.print(fibo(30));
 		  
 	}
