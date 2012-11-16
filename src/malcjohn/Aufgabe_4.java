@@ -1,7 +1,7 @@
-
+package malcjohn;
 import Prog1Tools.IOTools;
 
-public class Aufgabe4 {
+public class Aufgabe_4 {
 
 	/**
 	 * @param args
