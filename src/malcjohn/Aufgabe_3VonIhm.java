@@ -1,6 +1,7 @@
+package malcjohn;
 import Prog1Tools.IOTools;
 
-public class Aufg3
+public class Aufgabe_3VonIhm
 {
   public static void main (String[] args) 
   {  
@@ -37,7 +38,7 @@ public class Aufg3
           jmax = j;
         }
       }
-      if (jmax > i) // nicht nötig, spart nur etwas Arbeit  (kein Tausch i mit i)
+      if (jmax > i) // nicht nï¿½tig, spart nur etwas Arbeit  (kein Tausch i mit i)
       {
         System.out.print("swap " + i + ": " + ar[i]);
         System.out.println("\t" + jmax + ": " + ar[jmax]);
@@ -55,7 +56,7 @@ public class Aufg3
     System.out.println();
     System.out.println(ar); // liefert Adresse (nur Demo)
    
-    for (double x : ar)    // verkürzte Schreibweise ab 1.5
+    for (double x : ar)    // verkï¿½rzte Schreibweise ab 1.5
       System.out.print(x + " ");
     System.out.println();
 

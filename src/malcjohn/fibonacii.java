@@ -31,10 +31,10 @@ public class fibonacii {
 	  
 	  long[] fibonaci = new long [cislo];
 	  //If number is 0 or 1 return 1
-	  if() {
-		long f = fibon(cislo-1)+ fibon(cislo-2);
-		fibonaci[cislo] = f;
-	  }
+//	  if() {
+//		long f = fibon(cislo-1)+ fibon(cislo-2);
+//		fibonaci[cislo] = f;
+//	  }
 	  return fibonaci[cislo];
 	  
   }
