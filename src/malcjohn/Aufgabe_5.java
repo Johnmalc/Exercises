@@ -7,8 +7,8 @@ public class Aufgabe_5 {
 	 */
 	public static long fibo (int n) {
 	   long auf[] = new long [n+1];
-
-	   auf[0] = 0;
+		// pocita od 0, melo by dle ucitele o jednu vetsi
+	   auf[0] = 0; // spravne bz melo byt 1
 	   auf[1] = 1;
 
 	   for(int i = 2; i < auf.length; i++){
