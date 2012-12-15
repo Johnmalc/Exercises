@@ -1,7 +1,7 @@
 package malcjohn;
 
+import java.util.Arrays;
 import java.util.Scanner;
-
 public class ArraySort {
 
 	/**
@@ -17,6 +17,12 @@ public class ArraySort {
 
         for(int i = 0; i < array.length; i++) {
             array[i] = scan.nextDouble();    
+        }	
+       
+        Arrays.sort(array);
+       
+        for(int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);    
         }	
 
 	}
