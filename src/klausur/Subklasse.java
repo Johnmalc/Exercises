@@ -1,13 +1,13 @@
 package klausur;
 
-public class Subklasse extends Superklasse {
+public class Subklasse extends Superklasse implements Inter {
 
 	public Subklasse() {
 	}
 
 	@Override
 	public double getBlbost() {
-		return 5;
+		return 5.0;
 	}
 
 	@Override
@@ -19,6 +19,12 @@ public class Subklasse extends Superklasse {
 	@Override
 	public String getDomecek() {
 		return domecek;
+	}
+
+	@Override
+	public void ko() {
+		System.out.println("sdf");
+		
 	}
 
 }

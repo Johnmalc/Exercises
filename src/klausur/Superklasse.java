@@ -1,14 +1,25 @@
 package klausur;
 
-public abstract class Superklasse {
+public class Superklasse implements Inter {
 	String domecek;
 	int cilso;
 	double blbost;
 	
-	public abstract double getBlbost();
+	public double getBlbost() {
+		return blbost;
+	}
 	
-	public abstract void setDomecek(String barva);
+	public void setDomecek(String barva){
+		this.domecek = barva;
+	}
 	
-	public abstract String getDomecek(); 
+	public String getDomecek() {
+		return domecek;
+	}
+
+	public void ko() {
+		System.out.println("sdfs");
+		
+	} 
 
 }
