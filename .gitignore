@@ -3,3 +3,4 @@ bin/
 #ignore the eclipse configuration files
 .classpath
 .project
+/*.classpath
