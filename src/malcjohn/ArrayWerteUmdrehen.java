@@ -19,7 +19,7 @@ public class ArrayWerteUmdrehen {
 	}
 
 	public static void reverse(int[] feldNeu) {
-		for (int s = 0, e = feldNeu.length - 1; s < e; ++s, --e) {
+		for (int s = 0, e = feldNeu.length -1 ; s < e; ++s, --e) {
 			int temp = feldNeu[s];
 			feldNeu[s] = feldNeu[e];
 			feldNeu[e] = temp;

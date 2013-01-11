@@ -55,6 +55,7 @@ public class FibonacciRecursion {
 		//System.out.println(Fibo(50));
 		Scanner scan = new Scanner(System.in);
 		long n = scan.nextLong();
+		scan.close();
 
 		// velice rychle
 	// odkomentovat	System.out.println(f((int) n));

@@ -26,16 +26,16 @@ public class Aufgabe_3MitInput {
         // see file array umdrehen
         BubleSort(array);
         System.out.println(Arrays.toString(array));
-        
+        scan.close();
 	}
 	private static void BubleSort(double[] array){
 		double n = array.length;
-		int temp;
+		double temp;
 		for(int i = 0; i < n; i++){
 			for(int j = 0; j < (n-1); j++) {
 				// <> zmeni druh razeni
 				if (array [j+1] > array[j]){
-					temp = (int) array[j+1];
+					temp = array[j+1];
 					array[j+1] = array[j];
 					array[j] = temp;
 				}

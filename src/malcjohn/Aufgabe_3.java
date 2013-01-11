@@ -2,10 +2,6 @@
  * Import must be after package
  */
 package malcjohn;
-import java.util.Scanner;
-import java.util.Arrays;
-import java.util.Collections;
-import Prog1Tools.IOTools;
 
 /**
  * @author malcjohn

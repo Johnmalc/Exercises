@@ -2,7 +2,6 @@
  * Import must be after package
  */
 package malcjohn;
-import java.util.*;
 //
 //import Prog1Tools.IOTools;
 //import Prog1Tools.IOTools.*;
@@ -10,12 +9,12 @@ import java.util.*;
 /**
  * @author malcjohn
  * Aufgabe 3:
- * Sortieren Sie einen Array von Fließkomma-Zahlen (aufsteigend).
- * Initialisieren Sie den Array auch über Tastatureingabe.
+ * Sortieren Sie einen Array von Flieï¿½komma-Zahlen (aufsteigend).
+ * Initialisieren Sie den Array auch ï¿½ber Tastatureingabe.
  * 
  * Vorgehen (lineare Suche):
- * Ab 1. Element nach größter Zahl suchen, 1. Element mit dieser tauschen.
- * Danach ab 2. Element nach (zweit)größter Zahl suchen, mit 2. Element tauschen
+ * Ab 1. Element nach grï¿½ï¿½ter Zahl suchen, 1. Element mit dieser tauschen.
+ * Danach ab 2. Element nach (zweit)grï¿½ï¿½ter Zahl suchen, mit 2. Element tauschen
  * und so weiter bis zum Ende.
  * Hinweis: Ergibt zwei geschachtelte Schleifen.
  *
@@ -73,7 +72,7 @@ public class aufagbe_3 {
 		// here starts the buble sort algo
 		for(int i = 0; i < numbers.length-1; i++){
 			for(int d = 0; d < numbers.length-1; d++){
-				if(numbers[d] > numbers[d+1]){ // bud od nejvetsiho k nejmensimu nebo obracene
+				if(numbers[d] < numbers[d+1]){ // bud od nejvetsiho k nejmensimu nebo obracene
 					a = numbers[d]; // swap function
 					numbers[d] = numbers[d+1];
 					numbers[d+1] = a; 
