@@ -5,7 +5,7 @@ public class Main extends Superklasse{
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// nedase udelat object z abstract klasse
 		Superklasse cl = new Superklasse();
 		System.out.println(cl.getBlbost());
@@ -21,6 +21,20 @@ public class Main extends Superklasse{
 		for (int a = 0; a < ar.length; a++) {
 			System.out.println(ar[a]);
 		}
+		
+		int zahl = 546;
+		int a = zahl % 10;
+		zahl = zahl /10;
+		System.out.println(zahl);
+		for (int i = 0; i < 20; i++){
+			try {
+				System.out.println("CF");
+			}finally {
+				System.err.println("Dsf");
+			}
+		}
+	
+	
 	}
 
 }

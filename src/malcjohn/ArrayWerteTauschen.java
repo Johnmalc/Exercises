@@ -8,7 +8,7 @@ public class ArrayWerteTauschen {
 	 * @param args
 	 * bud napsat array [] dvakrat nebo pouze jednou pres static
 	 */
-	private static int[] intArr = { 5, 24, 18, 76 };
+	private static final int[] intArr = { 5, 24, 18, 76 };
 
 	public boolean tauschIndex(int l, int r) {
 		// int[] intArr = { 5, 24, 18, 76 };
