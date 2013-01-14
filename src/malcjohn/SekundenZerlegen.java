@@ -7,7 +7,7 @@ public class SekundenZerlegen {
 	 */
 	public static void main(String[] args) {
 		long a,d,r,h,t,de,re,he,te;
-		a = 158036522L;
+		a = 15806515121311622L;
 		
 		d = a/60;
 		r = d/60;
