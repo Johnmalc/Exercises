@@ -16,7 +16,7 @@ public class Main {
 		Statement stmt;
 		try {
 
-			Class.forName(driver);// .newInstance();
+			Class.forName(driver);
 			conn = DriverManager.getConnection(url);
 			String query = "Select * From Fil";
 			stmt = conn.createStatement();

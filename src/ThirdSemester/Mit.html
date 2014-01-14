@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<H2>Minimales Beispiel (Nr. 1) fur JDBC Programmierung</H2>
+<p>Treiber geladen</p>
+<p>URL = jdbc:sqlserver://localhost:1433;databaseName=StayHomewithoutPer;integratedSecurity=true;</p>
+<H2>Verbindung hergestellt mit Datenbank: Dreamhome</H2>
+<p>SQL-Statement erstellt</p>
+<p>Query ausgefuhrt</p>
+<TITLE>SQL-Abfrage mit JDBC</TITLE>
+<H2>Abfrage:</H2>
+<P>SELECT * FROM Mit</P>
+<H2>Ergebnistabelle:</H2>
+<TABLE BORDER='1'>
+7
+<TR>
+ <TH>EMPl Id</TH>
+ <TH>Name</TH>
+ <TH>Gender</TH>
+ <TH>Gehalt</TH>
+ <TH>reports to the Boss</TH>
+ <TH>Branch ID</TH>
+ <TH>Position</TH>
+</TR>
+<TR>
+  <TD>1</TD>  <TD>Robert King</TD>  <TD>M         </TD>  <TD>143000.0000</TD>  <TD>null</TD>  <TD>B002</TD>  <TD>Director</TD></TR>
+<TR>
+  <TD>2</TD>  <TD>Rafael McDonalds</TD>  <TD>M         </TD>  <TD>72000.0000</TD>  <TD>1</TD>  <TD>B001</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>3</TD>  <TD>John White</TD>  <TD>M         </TD>  <TD>60000.0000</TD>  <TD>1</TD>  <TD>B003</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>4</TD>  <TD>Susan Brand</TD>  <TD>F         </TD>  <TD>55000.0000</TD>  <TD>1</TD>  <TD>B004</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>5</TD>  <TD>Cathy Brown</TD>  <TD>F         </TD>  <TD>32000.0000</TD>  <TD>2</TD>  <TD>B001</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>6</TD>  <TD>Claire Dujeune</TD>  <TD>F         </TD>  <TD>79000.0000</TD>  <TD>1</TD>  <TD>B010</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>7</TD>  <TD>Patty Summer</TD>  <TD>F         </TD>  <TD>23000.0000</TD>  <TD>2</TD>  <TD>B001</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>8</TD>  <TD>Mary Fleming</TD>  <TD>F         </TD>  <TD>43000.0000</TD>  <TD>1</TD>  <TD>B011</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>9</TD>  <TD>Carl Maier</TD>  <TD>M         </TD>  <TD>31000.0000</TD>  <TD>64</TD>  <TD>B011</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>10</TD>  <TD>Anne Beech</TD>  <TD>F         </TD>  <TD>26000.0000</TD>  <TD>5</TD>  <TD>B001</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>12</TD>  <TD>Paul Coplien</TD>  <TD>M         </TD>  <TD>27000.0000</TD>  <TD>3</TD>  <TD>B003</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>13</TD>  <TD>David Ford</TD>  <TD>M         </TD>  <TD>41000.0000</TD>  <TD>1</TD>  <TD>B012</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>14</TD>  <TD>Mary Howe</TD>  <TD>F         </TD>  <TD>55000.0000</TD>  <TD>1</TD>  <TD>B005</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>15</TD>  <TD>Julie Lee</TD>  <TD>F         </TD>  <TD>34000.0000</TD>  <TD>3</TD>  <TD>B003</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>16</TD>  <TD>Aaron Young</TD>  <TD>M         </TD>  <TD>74000.0000</TD>  <TD>1</TD>  <TD>B013</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>17</TD>  <TD>Albert Thomson</TD>  <TD>M         </TD>  <TD>25000.0000</TD>  <TD>13</TD>  <TD>B012</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>18</TD>  <TD>Christine McDonalds</TD>  <TD>F         </TD>  <TD>38000.0000</TD>  <TD>4</TD>  <TD>B004</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>19</TD>  <TD>Elisa Pinkerton</TD>  <TD>F         </TD>  <TD>36000.0000</TD>  <TD>16</TD>  <TD>B013</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>20</TD>  <TD>Eric Montgomery</TD>  <TD>M         </TD>  <TD>33000.0000</TD>  <TD>7</TD>  <TD>B001</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>21</TD>  <TD>Alexander Reynolds</TD>  <TD>M         </TD>  <TD>37000.0000</TD>  <TD>5</TD>  <TD>B001</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>22</TD>  <TD>Edward Robinson</TD>  <TD>M         </TD>  <TD>28000.0000</TD>  <TD>7</TD>  <TD>B001</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>23</TD>  <TD>Jesse Owens</TD>  <TD>M         </TD>  <TD>34000.0000</TD>  <TD>4</TD>  <TD>B004</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>25</TD>  <TD>Johnatan Hunter</TD>  <TD>M         </TD>  <TD>45000.0000</TD>  <TD>1</TD>  <TD>B014</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>26</TD>  <TD>Lenita Kennedy</TD>  <TD>F         </TD>  <TD>56000.0000</TD>  <TD>1</TD>  <TD>B009</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>27</TD>  <TD>Lisa Miller</TD>  <TD>F         </TD>  <TD>34000.0000</TD>  <TD>25</TD>  <TD>B014</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>28</TD>  <TD>Lilly Jennings</TD>  <TD>F         </TD>  <TD>36000.0000</TD>  <TD>14</TD>  <TD>B005</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>29</TD>  <TD>Rafaela Johnson</TD>  <TD>F         </TD>  <TD>23000.0000</TD>  <TD>12</TD>  <TD>B003</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>32</TD>  <TD>Harry Anderson</TD>  <TD>M         </TD>  <TD>40000.0000</TD>  <TD>12</TD>  <TD>B003</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>33</TD>  <TD>George Bailey</TD>  <TD>M         </TD>  <TD>73000.0000</TD>  <TD>1</TD>  <TD>B006</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>34</TD>  <TD>Salomon Beckett</TD>  <TD>M         </TD>  <TD>46000.0000</TD>  <TD>1</TD>  <TD>B008</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>35</TD>  <TD>Susan Armstrong</TD>  <TD>F         </TD>  <TD>28000.0000</TD>  <TD>15</TD>  <TD>B003</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>36</TD>  <TD>Rosa Hemingway</TD>  <TD>F         </TD>  <TD>30000.0000</TD>  <TD>15</TD>  <TD>B003</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>37</TD>  <TD>Martha McDonalds</TD>  <TD>F         </TD>  <TD>31000.0000</TD>  <TD>15</TD>  <TD>B003</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>38</TD>  <TD>Anna-Isabell Green</TD>  <TD>F         </TD>  <TD>32000.0000</TD>  <TD>33</TD>  <TD>B006</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>39</TD>  <TD>Tina Hall-Becker</TD>  <TD>F         </TD>  <TD>34000.0000</TD>  <TD>18</TD>  <TD>B004</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>40</TD>  <TD>Thomas Harrison</TD>  <TD>M         </TD>  <TD>42000.0000</TD>  <TD>1</TD>  <TD>B007</TD>  <TD>Manager</TD></TR>
+<TR>
+  <TD>42</TD>  <TD>Winston Hughes</TD>  <TD>M         </TD>  <TD>22000.0000</TD>  <TD>40</TD>  <TD>B007</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>44</TD>  <TD>Walter Jefferson</TD>  <TD>M         </TD>  <TD>23000.0000</TD>  <TD>18</TD>  <TD>B004</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>45</TD>  <TD>Zara Newton</TD>  <TD>F         </TD>  <TD>24000.0000</TD>  <TD>23</TD>  <TD>B004</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>46</TD>  <TD>Nina McDonalds</TD>  <TD>F         </TD>  <TD>25000.0000</TD>  <TD>23</TD>  <TD>B004</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>47</TD>  <TD>Naomi Campell</TD>  <TD>F         </TD>  <TD>26000.0000</TD>  <TD>63</TD>  <TD>B010</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>48</TD>  <TD>Carol Moore</TD>  <TD>M         </TD>  <TD>27000.0000</TD>  <TD>40</TD>  <TD>B007</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>49</TD>  <TD>Tony McDonalds</TD>  <TD>M         </TD>  <TD>28000.0000</TD>  <TD>63</TD>  <TD>B010</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>50</TD>  <TD>Margret McElroy</TD>  <TD>F         </TD>  <TD>29000.0000</TD>  <TD>64</TD>  <TD>B011</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>51</TD>  <TD>Alexander Porter</TD>  <TD>M         </TD>  <TD>29000.0000</TD>  <TD>17</TD>  <TD>B012</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>52</TD>  <TD>Maria Quasimodo</TD>  <TD>M         </TD>  <TD>30000.0000</TD>  <TD>17</TD>  <TD>B012</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>53</TD>  <TD>Bertrand Russel</TD>  <TD>M         </TD>  <TD>31000.0000</TD>  <TD>34</TD>  <TD>B008</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>54</TD>  <TD>Ashley Parker</TD>  <TD>M         </TD>  <TD>25500.0000</TD>  <TD>28</TD>  <TD>B005</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>55</TD>  <TD>John Stuart</TD>  <TD>M         </TD>  <TD>23500.0000</TD>  <TD>28</TD>  <TD>B005</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>56</TD>  <TD>Ruth Sanderss</TD>  <TD>F         </TD>  <TD>27700.0000</TD>  <TD>19</TD>  <TD>B013</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>57</TD>  <TD>Rafael Smith</TD>  <TD>M         </TD>  <TD>32000.0000</TD>  <TD>19</TD>  <TD>B013</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>58</TD>  <TD>Viola Rutherford</TD>  <TD>F         </TD>  <TD>21000.0000</TD>  <TD>27</TD>  <TD>B014</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>59</TD>  <TD>Sammy Churchill</TD>  <TD>M         </TD>  <TD>22000.0000</TD>  <TD>27</TD>  <TD>B014</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>60</TD>  <TD>Miriam Thorne</TD>  <TD>F         </TD>  <TD>26000.0000</TD>  <TD>27</TD>  <TD>B014</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>61</TD>  <TD>Sally Thatcher</TD>  <TD>F         </TD>  <TD>36000.0000</TD>  <TD>34</TD>  <TD>B008</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>62</TD>  <TD>Larry Escott</TD>  <TD>M         </TD>  <TD>33000.0000</TD>  <TD>26</TD>  <TD>B009</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>63</TD>  <TD>William Spencer</TD>  <TD>M         </TD>  <TD>32000.0000</TD>  <TD>6</TD>  <TD>B010</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>64</TD>  <TD>Diana Ashley-Bell</TD>  <TD>F         </TD>  <TD>38000.0000</TD>  <TD>8</TD>  <TD>B011</TD>  <TD>Supervisor</TD></TR>
+<TR>
+  <TD>65</TD>  <TD>Audrey Thorne</TD>  <TD>F         </TD>  <TD>25000.0000</TD>  <TD>62</TD>  <TD>B009</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>66</TD>  <TD>Paula Burns</TD>  <TD>F         </TD>  <TD>24000.0000</TD>  <TD>62</TD>  <TD>B002</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>67</TD>  <TD>Amanda Wallis</TD>  <TD>F         </TD>  <TD>23000.0000</TD>  <TD>38</TD>  <TD>B006</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>68</TD>  <TD>Patty Stokes</TD>  <TD>F         </TD>  <TD>22000.0000</TD>  <TD>53</TD>  <TD>B008</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>69</TD>  <TD>Holly Fields</TD>  <TD>F         </TD>  <TD>21500.0000</TD>  <TD>53</TD>  <TD>B008</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>70</TD>  <TD>Martha McCulloch</TD>  <TD>F         </TD>  <TD>26000.0000</TD>  <TD>61</TD>  <TD>B008</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>71</TD>  <TD>Maurin Best</TD>  <TD>F         </TD>  <TD>22500.0000</TD>  <TD>42</TD>  <TD>B007</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>72</TD>  <TD>Martha McDonalds</TD>  <TD>F         </TD>  <TD>23500.0000</TD>  <TD>27</TD>  <TD>B014</TD>  <TD>Assistant</TD></TR>
+<TR>
+  <TD>73</TD>  <TD>Barrigan</TD>  <TD>null</TD>  <TD>23500.0000</TD>  <TD>27</TD>  <TD>B013</TD>  <TD>Assistant</TD></TR>
+</TABLE>
