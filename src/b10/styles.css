@@ -1,0 +1,12 @@
+/*
+table {
+    background-image: url(https://bimane-nellie.codio.io/p14-no1_logo.gif.png);
+    width:200px; 
+    float:left; 
+}
+ */
+table td, th {
+	display: table-cell;
+	vertical-align: bottom; 
+	background-color: #E0E0E0;
+}
